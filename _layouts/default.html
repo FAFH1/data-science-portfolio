@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ site.description }}">
+    <title>{{ page.title | default: site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="{{ '/' | relative_url }}">Kejia He<span>.</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#project">Project</a>
+      </nav>
+    </header>
+    <main>{{ content }}</main>
+    <footer class="site-footer">
+      <p>Built with GitHub Pages · Data science portfolio · 2026</p>
+    </footer>
+  </body>
+</html>
